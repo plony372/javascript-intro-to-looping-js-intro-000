@@ -6,7 +6,10 @@ let i = 0;
 
 
 function forLoop(array){
-  for 
+  for (let num = 0; num < 25; num++){
+    
+  }
+  
 }
 
 function whileLoop(number){
