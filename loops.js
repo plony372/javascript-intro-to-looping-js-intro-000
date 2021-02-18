@@ -9,6 +9,7 @@ function forLoop(array){
   for (let num = 0; num < 25; num++){
     if (num != 1){
     console.log(`I am ${num} strange loop`)
+    array.push(num)
     }else{
       console.log(`I am ${num} strange loops`)
     }
