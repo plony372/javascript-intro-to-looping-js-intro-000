@@ -6,13 +6,13 @@ let i = 0;
 
 
 function forLoop(array){
-  for (let num = 0; num < 25; num++){
-    if (num != 1){
+  for (let i = 0; i < 25; i++){
+    if (i != 1){
     console.log("I am 1 strange loop.");
-    array.push(num);
+    array.push(i);
     }else{
-      console.log(`I am ${num} strange loops`);
-      array.push(num);
+      console.log(`I am ${i} strange loops`);
+      array.push(i);
     }
   }
   return array;
