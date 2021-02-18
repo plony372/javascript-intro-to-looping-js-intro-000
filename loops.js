@@ -8,14 +8,14 @@ let i = 0;
 function forLoop(array){
   for (let num = 0; num < 25; num++){
     if (num != 1){
-    console.log('I am 1 strange loop.')
-    array.push(num)
+    console.log("I am 1 strange loop.");
+    array.push(num);
     }else{
-      console.log(`I am ${num} strange loops`)
-      array.push(num)
+      console.log(`I am ${num} strange loops`);
+      array.push(num);
     }
   }
-  return array
+  return array;
   
 }
 
@@ -23,7 +23,7 @@ function whileLoop(number){
  while (number > 0) {
   console.log(--number);
  }
- return 'done'
+ return 'done';
 }
 
 
