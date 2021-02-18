@@ -5,12 +5,19 @@ let i = 0;
 
 
 
-function forLoop(array){
-  for (let num = 0; num < 25; num++){
-    array.push(`"I am ${num} strange loop${num == 1 ? '':'s'}."`);
+function forLoop(arr) {
+  for (let i = 0; i < 25; i++) {
+    if (i === 1) {
+
+      // Use `push` to add the string to the array
+      arr.push(`I am 1 strange loop.`);
+    } else {
+      arr.push(`I am ${i} strange loops.`);
     }
-  return array;
-  
+  }
+
+  // Return your array
+  return arr;
 }
 
 function whileLoop(number){
