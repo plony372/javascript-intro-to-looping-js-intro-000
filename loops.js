@@ -6,16 +6,16 @@ let i = 0;
 
 
 function forLoop(array){
-  for (let i = 0; i < 25; i++){
-    if (i != 1){
-    console.log("I am 1 strange loop.");
-    array.push(i);
+  for (let num = 0; num < 25; num++){
+    if (num != 1){
+    console.log(`I am ${num} strange loop`)
+    array.push(num)
     }else{
-      console.log(`I am ${i} strange loops`);
-      array.push(i);
+      console.log(`I am ${num} strange loops`)
+      array.push(num)
     }
   }
-  return array;
+  return array
   
 }
 
@@ -23,7 +23,7 @@ function whileLoop(number){
  while (number > 0) {
   console.log(--number);
  }
- return 'done';
+ return 'done'
 }
 
 
