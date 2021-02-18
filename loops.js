@@ -7,7 +7,7 @@ let i = 0;
 
 function forLoop(array){
   for (let num = 0; num < 25; num++){
-    console.log(`I am ${num} strange loops`)
+    console.log(`"I am ${i} strange loop${i === 0 ? \'\' : \'s\'}."`)
     array.push(num)
   return array
   
