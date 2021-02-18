@@ -4,6 +4,11 @@ for (let num = 1; num < 6; num +=1) {
 let i = 0;
 
 
+
+function forLoop(array){
+  for 
+}
+
 function whileLoop(number){
  while (number > 0) {
   console.log(--number);
