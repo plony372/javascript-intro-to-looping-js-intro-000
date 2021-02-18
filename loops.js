@@ -12,8 +12,10 @@ function forLoop(array){
     array.push(num)
     }else{
       console.log(`I am ${num} strange loops`)
+      array.push(num)
     }
   }
+  return array
   
 }
 
