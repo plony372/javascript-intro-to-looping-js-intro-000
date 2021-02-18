@@ -7,7 +7,7 @@ let i = 0;
 
 function forLoop(array){
   for (let num = 0; num < 25; num++){
-    var string = console.log(`"I am ${num} strange loop${num === 0 ? ' ' : 's'}. to an array 25 times"`);
+    var array.push(`"I am ${num} strange loop${num === 0 ? ' ' : 's'}. to an array 25 times"`);
     
     array.push(string);
     }
