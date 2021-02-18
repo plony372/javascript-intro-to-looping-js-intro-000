@@ -8,7 +8,7 @@ function whileLoop(number){
   
 
 while (number > 0) {
-  console.log(--countdown);
+  console.log(--number);
  }
  return 'done'
 }
