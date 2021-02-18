@@ -7,6 +7,7 @@ let i = 0;
 
 function forLoop(array){
   for (let num = 0; num < 25; num++){
+    
     console.log(`I am ${num} strange loop`)
   }
   
