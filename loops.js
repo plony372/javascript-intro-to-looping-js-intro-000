@@ -7,8 +7,11 @@ let i = 0;
 
 function forLoop(array){
   for (let num = 0; num < 25; num++){
-    
+    if (num != 1){
     console.log(`I am ${num} strange loop`)
+    }else{
+      console.log(`I am ${num} strange loops`)
+    }
   }
   
 }
