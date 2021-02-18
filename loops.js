@@ -4,10 +4,10 @@ for (let num = 1; num < 6; num +=1) {
 
 
 
-function whileLoop(){
+function whileLoop(number){
   
-let countdown = 100;
-while (countdown > 0) {
+
+while (number > 0) {
   console.log(--countdown);
  }
  return 'done'
